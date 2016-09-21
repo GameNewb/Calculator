@@ -73,7 +73,15 @@ public class Calculator
     
     public static double divide(double x, double y)
     {
-        return quotient = x / y;
+        if(y == 0)
+        {
+            return quotient = 0;
+        }
+        else
+        {
+            return quotient = x / y;
+        }
+        
     }
     
     
